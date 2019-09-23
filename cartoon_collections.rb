@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   array.map.with_index { |phrase, index|
     phrase.capitalize + "!"
   }
-  new_array
+  
 end
 
 def long_planeteer_calls(array)
