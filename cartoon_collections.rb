@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   new_array = []
-  array.map.with_index { |phrase, index| 
+  array.map.with_index { |phrase, index|
     new_array[index] = phrase.capitalize + "!"
   }
   new_array
